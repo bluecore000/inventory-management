@@ -1,0 +1,118 @@
+input[type="text"] {
+
+	color: #000;
+}
+input[type="number"] {
+
+	color: #000;
+	
+}
+.b-less-input,.b-less-input:active{
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+.b-c-l:before {
+	clear: left;
+	content: '';
+	display: block;
+}
+.no-print {
+	display: none!important;
+}
+.bill-h-left {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.bill-h-left div {
+	margin-top: 7px;
+}
+.bill-r-left {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.bill-r-left div {
+	margin-top: 7px;
+}
+.no-print-html,.no-print-html div,.no-print-html p,.no-print-html button,.no-print-html input {
+	display: hidden!important;
+}
+.heading-left .invoice-name {
+	font-weight: 600;
+    font-size: 15px;
+    padding-left: 143px;
+}
+.heading-left div p {
+	padding-right: 20px;
+	margin:0;
+	width: 28%;
+	font-weight: 600;
+	display: inline-block;
+	padding-left: 10px;
+}
+.heading-left div p:after { 
+	content: ':';
+	padding-left: 5px;
+	
+}
+.heading-left div span {
+	
+	width: 70%;
+	display: inline-block;
+}
+.heading-right {
+	padding-top: 15px;
+	
+}
+.heading-right div p {
+	margin:0;
+	width: 65%;
+	font-weight: 600;
+	display: inline-block;
+	text-align: right;
+}
+.heading-right div span {
+	
+	width: 34%;
+	display: inline-block;
+	text-align: left;
+	padding-left: 20px;
+}
+.invoice-transact-table {
+	margin-top: 20px;
+}
+.invoice-transact-table thead tr th {
+	padding-bottom: 0;
+}
+.invoice-transact-table tbody tr td {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.invoice-footer-table {
+	margin-top: 40px;
+}
+.invoice-footer-table tbody tr td {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.invoice-footer-table tbody tr td:first-child {
+	font-weight: 600;
+}
+
+.f-right {
+	float: right;	
+}
+.f-left {
+	float: left;
+}
+.col-md-5 {
+    width: 41.66666667%;
+}
+.col-md-6 {
+    width: 50%; 
+	float: left;
+}
+.col-md-7 {
+    width: 58.33333333%; 
+}
